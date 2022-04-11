@@ -1,0 +1,21 @@
+{
+    "inbounds": [{
+        "port": 3000,
+        "protocol": "vmess",
+        "settings": {
+            "clients": [{
+                "id": "f2b8684e-a2d3-41ba-8ee7-89c5b2b67384",
+                "alterId": 64
+            }]
+        },
+        "streamSettings": {
+            "network": "ws",
+            "wsSettings": {
+                "path": "/"
+            }
+        }
+    }],
+    "outbounds": [{
+        "protocol": "freedom"
+    }]
+}
